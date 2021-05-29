@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: linear-gradient(to right, rgba(34,193,195,1), rgba(170,45,253,1));
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 24px !important;
+    font-weight: 400;
+    color: #fff !important;
+    letter-spacing: 2px;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+
+.navbar-brand:hover {
+    opacity: 1.0;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+    color: #E3E3E3 !important;
+}
+.navbar-nav li a {
+    padding: 2.5px 10px;
+    font-weight: 600;
+    float: right;
+    color: #E3E3E3 !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    color: #E3E3E3 !important;
+}
+
+/******************** BANER ***********************/
+
+#banner {
+    background: linear-gradient(to right, rgba(34,193,195,1), rgba(170,45,253,1));
+    color: #fff;
+    padding-top: 5%;
+    
+}
+
+.promo-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.promo-title > span {
+    font-weight: 400;
+}
+
+.right-img {
+    float: right;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+.home-button, .home-button a {
+    color: #fff !important;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 80px;
+    float: right;
+    margin: 20px;
+    opacity: 0.6;
+    transition: opacity 0.5s;
+}
+
+.home-button:hover, .home-button a :hover {
+    opacity: 1.0;
+    text-decoration: none;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 40px;
+}
+
+.title::before {
+    content: '';
+    background: linear-gradient(to right, rgba(34,193,195,1), rgba(170,45,253,1));
+    width: 220px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(50px);
+    opacity: 0.8;
+}
+
+/* CUT EFFECT */
+.title::after {
+    content: '';
+    border: 2px solid #fff; 
+    width: 75px;
+    height: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(5px);
+}
+
+/************************* SOCIALS *********************/
+
+.social-icon {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.social-icon a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/************************* ABOUT US *********************/
+
+/* ABOUT US ITEMS DECORATION */
+.about_icon {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    filter: drop-shadow(0px 2px 5px rgba(170,45,253,1)) invert(15%);
+}
+
+.about-box p {
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color: #455A64 !important;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+#ab-info {
+    color: #323232;
+    font-size: 18px;
+}
+
+/****************** PRICE LIST *****************/
+
+#price_list {
+    margin-top: 50px;
+    background: url("images/decoration-wave.png") no-repeat;
+    background-size: cover;
+}
+.p-l-list-img {
+    margin-top: 20px;
+    filter: drop-shadow(5px 20px 20px rgba(34,193,195,1)) invert(5%);
+}
+
+#price_list p {
+    letter-spacing: 2px;
+    color: #455A64 !important;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+#price_list ul {
+    list-style: none;
+}
+
+#price_list ul li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+ul> li> i {
+    color: rgba(170,45,253,1);
+    margin-right: 5px;
+}
+
+/****************** PORFOLIO *******************/
+
+#portfolio {
+    margin-top: 50px;
+}
+
+.min-title {
+    color: #464646;
+}
+
+.box {
+    margin-top: 25px;
+    color: #E3E3E3;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, rgba(34,193,195,1), rgba(170,45,253,1));
+    padding: 5px;
+    border-radius: 10px;
+    opacity: 0.8;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    
+}
+
+.box:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/**************** CLIENT *********************/
+
+#client-about-title {
+    margin-top: 50px;
+}
+#client-about {
+    background-image: url("images/about/bg-clients.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+
+#client-about p {
+    letter-spacing: 2px;
+    color: #CDCDCD !important;
+    text-transform: uppercase;
+}
+
+
+.title-clientsay, .title-company {
+    margin-bottom: 50px;
+    color: #fff !important;
+}
+
+.top-img {
+    width: 100%;
+}
+
+
+/************** CONTACT ******************/
+
+#contact {
+    background: url("images/contact-bg.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.phone-number-box {
+    background: linear-gradient(to right, rgba(34,193,195,1), rgba(170,45,253,1));
+    border-radius: 10px;
+    padding: 5px 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #E3E3E3;
+    font-size: 30px;
+}
+
+.phone-number-box i {
+    border-right: 2px solid #fff;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.formh4 {
+    font-weight: 700;
+    color: #191919;
+}
+
+.contact-form {
+    margin-top: 40px;
+}
+
+.form-element {
+    margin-bottom: 20px;
+}
+
+.input-group-prepend {
+    border: 2px solid rgba(170,45,253,1);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none !important;
+}
+
+.form-control {
+    border: 2px solid rgba(170,45,253,1) !important;
+}
+
+.form-submit-btn {
+    color: #000 !important;
+    border: 2px solid #fff;
+    padding: 15px;
+    opacity: 0.6;
+    transition: opacity 0.5s;
+}
+
+.form-submit-btn:hover {
+    opacity: 1.0;
+}
+
+footer {
+    background-color:  #F1F1F1;
+}
+
+footer h4 {
+    margin-top: 10px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+
+/****************************** ABOUT US - NEW VERSION ***********************/
+
+.box-design {
+    background-color: #F6F6F6;
+    padding: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    transition opacity 0.7s;
+}
+
+.box-design:hover {
+    opacity: 1.0;
+}
+
